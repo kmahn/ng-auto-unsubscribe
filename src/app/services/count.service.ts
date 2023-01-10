@@ -19,7 +19,7 @@ export class CountService {
       console.log(`Create ${name}`);
       return () => {
         clearInterval(id);
-        console.log(`Unsubscribe ${name}`);
+        alert(`Unsubscribe ${name}`);
       };
     });
   }

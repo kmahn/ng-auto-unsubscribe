@@ -8,7 +8,7 @@ import { CountService } from '../../services';
   templateUrl: './child2.component.html',
   styleUrls: ['./child2.component.scss']
 })
-@AutoSubscribe()
+@AutoSubscribe('_subscription2')
 export class Child2Component implements OnInit {
   count1 = 0;
   count2 = 0;
